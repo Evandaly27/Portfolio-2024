@@ -6,4 +6,4 @@ This challange helped me advance my skills on css. It gave me the oppourtinty to
 
 ## Usage
 
-![Screenshot](assests/Images/picture of portfolio.png)
+![Screenshot](Portfolio-2024\assets\css\Images\Picture of portfolio.png)
