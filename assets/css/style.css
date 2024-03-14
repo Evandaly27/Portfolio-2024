@@ -1,4 +1,6 @@
 header {
+    display: flex;
+    justify-content: space-between;
     background-color: aqua;
     padding: 20px;
 }
@@ -10,13 +12,14 @@ main {
     height: 100vh;
 }
 
-aside {
-    background-color: azure;
-    width: 25%;
-}
 
-aside h1 {
-    font-size: 45px;
-    border-right: 5px solid black;
-}
 
+
+/* .profile-pic {
+    height: 400px;
+    background-position: left;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+} */
