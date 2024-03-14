@@ -1,4 +1,5 @@
 /* global margin and padding */
+
 * {
     padding: 0;
     padding: 0;
@@ -8,7 +9,7 @@
 /* styling */
 body {
     font-family: 'Times New Roman', Times, serif;
-    background-color: blanchedalmond;
+    background-color: #f5f5f5;
     line-height: 2;
 }
 
@@ -16,8 +17,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: cyan;
-    color: #360000;
+    background-color: #4b4a4a;
+    color: #fff;
     padding: 10px;
 }
 
@@ -31,7 +32,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #360000;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -50,7 +51,6 @@ nav ul li a {
 .profile-pic {
     text-align: left;
     margin-bottom: 20px;
-    background-color: aquamarine;
 }
 
 .profile-pic img {
@@ -59,6 +59,7 @@ nav ul li a {
     display: inline-block;
     margin: 0 auto;
     padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .work-boxes {
@@ -67,15 +68,60 @@ nav ul li a {
 }
 
 .work-box {
-    flex: 0 0 calc(33.33% - 20px); /* Each box takes 33.33% width with some margin */
-    margin: 10px;
-    background-color: #f9f9f9;
-    padding: 20px;
-    border: 1px solid #ccc;
+    flex: 1 1 50%;
+    padding: 100px;
+    border: 1px solid #000000;
     border-radius: 5px;
 }
 
 .surf-report {
-    flex: 0 0 calc(66.66% - 20px);;
+    flex: 1 1 100%;
 }
 
+.contact-me-section {
+    background-color: #f5f5f5ff;
+    color: #000000;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+}
+
+.contact-me-title {
+    flex: 1;
+}
+
+.contact-me-links {
+    flex: 1;
+    text-align: right;
+
+}
+.contact-me-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-me-section ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    clear: both;
+}
+
+@media  and (max-width: 768px) {
+    .work-box {
+        flex: 1 1 50%;
+    }
+    .surf-report {
+        flex: 1 1 100%
+    }
+}
