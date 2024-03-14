@@ -1,25 +1,81 @@
+/* global margin and padding */
+* {
+    padding: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* styling */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: blanchedalmond;
+    line-height: 2;
+}
+
 header {
     display: flex;
     justify-content: space-between;
-    background-color: aqua;
-    padding: 20px;
-}
-
-main {
-    background-color: antiquewhite;
-    padding: 10px;
-    display: flex;
-    height: 100vh;
-}
-
-
-
-
-/* .profile-pic {
-    height: 400px;
-    background-position: left;
-    background-size: cover;
-    display: flex;
     align-items: center;
-    justify-content: space-evenly;
-} */
+    background-color: cyan;
+    color: #360000;
+    padding: 10px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    color: #360000;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 960px;
+    padding: 20px;
+    margin: auto;
+}
+
+.about-me-title,
+.my-work-title {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    text-align: left;
+    margin-bottom: 20px;
+    background-color: aquamarine;
+}
+
+.profile-pic img {
+    max-width: 100%;
+    height: 200px;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.work-boxes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work-box {
+    flex: 0 0 calc(33.33% - 20px); /* Each box takes 33.33% width with some margin */
+    margin: 10px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.surf-report {
+    flex: 0 0 calc(66.66% - 20px);;
+}
+
