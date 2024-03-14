@@ -1,0 +1,22 @@
+header {
+    background-color: aqua;
+    padding: 20px;
+}
+
+main {
+    background-color: antiquewhite;
+    padding: 10px;
+    display: flex;
+    height: 100vh;
+}
+
+aside {
+    background-color: azure;
+    width: 25%;
+}
+
+aside h1 {
+    font-size: 45px;
+    border-right: 5px solid black;
+}
+
