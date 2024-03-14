@@ -1,2 +1,9 @@
-# Portfolio-2024
-A website to display my most recent work and projects. 
+# Evan Daly's Portfolio
+
+## Description
+
+This challange helped me advance my skills on css. It gave me the oppourtinty to use flexbox a lot which is a huge help in css. As we move further along in this class I will continue to update this portfolio with projects and other work I accomplish.
+
+## Usage
+
+![Screenshot](assests/Images/picture of portfolio.png)
