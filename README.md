@@ -6,7 +6,7 @@ This challange helped me advance my skills on css. It gave me the oppourtinty to
 
 ## Usage
 
-![alt text](/Portfolio-2024/assets/Images/Picture%20of%20portfolio.png)
+![alt text](/assets/Images/Picture%20of%20portfolio.png)
 
 Link to website - https://evandaly27.github.io/Portfolio-2024/
 
