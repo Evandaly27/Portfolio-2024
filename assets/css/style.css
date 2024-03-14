@@ -50,7 +50,7 @@ nav ul li a {
 .profile-pic {
     text-align: left;
     margin-bottom: 20px;
-    background-image: url('./Images/background\ image.jpg');
+    background-image: url("../Images/background_image.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -113,31 +113,31 @@ nav ul li a {
 
 .surf-report {
     flex: 1 1 100%;
-    background-image: url('./Images/pexels-pixabay-255464.jpg');
+    background-image: url('../Images/pexels-pixabay-255464.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .led-wall {
-    background-image: url('./Images/runbuddy.jpg');
+    background-image: url('../Images/runbuddy.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .calculator {
-    background-image: url('./Images/pexels-photomix-company-172505.jpg');
+    background-image: url('../Images/pexels-photomix-company-172505.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .pastel-puzzels {
-    background-image: url('./Images/pexels-pixabay-531756.jpg');
+    background-image: url('../Images/pexels-pixabay-531756.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .run-buddy {
-    background-image: url('./Images/pexels-craig-adderley-1546901.jpg');
+    background-image: url('../Images/pexels-craig-adderley-1546901.jpg');
     background-size: cover;
     background-position: center;
 }
